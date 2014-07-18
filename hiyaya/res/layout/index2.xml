@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dip"
+        android:layout_height="83dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ico_0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dip"
+        android:layout_height="83dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ico_1" />
+    
+    
+      <Button
+        android:id="@+id/index_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:text="flyking"
+        android:textColor="@drawable/text_color"
+        android:textSize="30sp" />
+      
+       <Button
+        android:id="@+id/index_title_coin"
+         android:layout_below="@+id/index_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:text="答题币：            "
+        android:textColor="@drawable/text_color"
+        android:textSize="25sp" />
+    
+    
+    
+    
+
+    <Button
+        android:id="@+id/index_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:text="开始挑战"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/index_txt_baike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:text="性知识小百科"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/index_txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_txt_baike"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:text="个人资料规则说明"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/index_txt_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_txt_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:text="排行榜"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/index_txt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_txt_rank"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:text="返回"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+</RelativeLayout>

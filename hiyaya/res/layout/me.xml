@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seashell"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    
+
+    <ListView
+        android:id="@+id/me_lv_path"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dip">
+    </ListView>
+    
+    
+    <RelativeLayout
+        android:id="@+id/index_rl_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash_login_bg_xml"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/splash_img_login_passer_head"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/passer_head" />
+
+        <TextView
+            android:id="@+id/splash_txt_2_login_passer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splash_img_login_passer_head"
+            android:text="@string/splash_txt_2_login_passer"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright (c) 2011 Tank Tang
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+
+    <attr name="accelerateLinearDecelerateProgressBarStyle" format="reference" />
+    <attr name="clickWheelViewStyle" format="reference" />
+    <attr name="fontTextViewStyle" format="reference" />
+    <attr name="pageIndicatorStyle" format="reference" />
+    <attr name="sectorViewStyle" format="reference" />
+    <attr name="shelfGalleryStyle" format="reference" />
+    <attr name="slideTileViewStyle" format="reference" />
+    <attr name="tileButtonStyle" format="reference" />
+    <attr name="toggleViewStyle" format="reference" />
+    <attr name="waveLayoutStyle" format="reference" />
+    <attr name="webImageViewStyle" format="reference" />
+    <attr name="workspaceStyle" format="reference" />
+    <attr name="adapterViewFlipperStyle" format="reference" />
+    <attr name="duration" format="integer" />
+    <attr name="dotRadius" format="dimension" />
+    <attr name="dotSpacing" format="dimension" />
+    <attr name="dotColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="interpolator" format="reference" />
+    <attr name="gravity">
+        <flag name="center" value="0x11" />
+        <flag name="top" value="0x30" />
+        <flag name="left" value="0x03" />
+        <flag name="bottom" value="0x50" />
+        <flag name="right" value="0x05" />
+    </attr>
+
+    <declare-styleable name="SectorView">
+        <attr name="radius" />
+        <attr name="animationOffset" format="integer" />
+        <attr name="duration" />
+        <attr name="interpolator" />
+        <attr name="gravity" />
+    </declare-styleable>
+    <declare-styleable name="AccelerateLinearDecelerateProgressBar">
+        <attr name="dotCount" format="integer" />
+        <attr name="duration" />
+        <attr name="dotRadius" />
+        <attr name="dotSpacing" />
+        <attr name="dotColor" />
+    </declare-styleable>
+    <declare-styleable name="PageIndicator">
+        <attr name="activePage" format="integer" />
+        <attr name="pageCount" format="integer" />
+        <attr name="dotRadius" />
+        <attr name="dotSpacing" />
+        <attr name="dotColor" />
+    </declare-styleable>
+    <declare-styleable name="ToggleView">
+        <attr name="toggle">
+            <enum name="on" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="radius" />
+    </declare-styleable>
+    <declare-styleable name="Workspace">
+        <attr name="showPage" format="integer" />
+        <!-- define the min velocity to perform scroll page action -->
+        <attr name="snapVelocity" format="integer">
+            <enum name="auto" value="-1" />
+        </attr>
+        <attr name="duration" />
+        <attr name="interpolator" />
+        <attr name="bounce" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ClickWheelView">
+        <attr name="radius" />
+        <attr name="centerX" format="integer" />
+        <attr name="centerY" format="integer" />
+        <attr name="flingEnabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WaveLayout">
+        <attr name="maxAmplitude" format="dimension" />
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="gravity" />
+    </declare-styleable>
+    <declare-styleable name="TileButton">
+        <attr name="maxRotateDegree" format="integer" />
+        <attr name="maxDepth" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="FontTextView">
+        <attr name="fontPath" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SlideTileView"></declare-styleable>
+    <declare-styleable name="AdapterViewFlipper_Layout">
+        <attr name="layout_gravity" format="flags" />
+    </declare-styleable>
+    <declare-styleable name="AdapterViewFlipper">
+        <attr name="inAnimation" format="reference" />
+        <attr name="outAnimation" format="reference" />
+        <attr name="flipInterval" format="integer" />
+        <attr name="autoStart" format="boolean" />
+    </declare-styleable>
+
+</resources>

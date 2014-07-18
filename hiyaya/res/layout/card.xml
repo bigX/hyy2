@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/card_wrap"
+    android:background="@color/black" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_bg_xml"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <SeekBar
+            android1:id="@+id/card_sb_time"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_alignParentTop="true"
+            android1:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_sb_time"
+            android1:layout_marginTop="50dip"     
+            android1:padding="10dip" >
+
+            <TextView
+                android1:id="@+id/card_txt_question"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_centerHorizontal="true"
+                android1:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/dimgrey"
+                android1:text="1加1等于几" />
+
+            <ListView
+                android1:id="@+id/card_lv_answers"
+                 android1:layout_marginTop="20dip"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_below="@+id/card_txt_question" >
+            </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

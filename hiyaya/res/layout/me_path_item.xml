@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null" >
+
+    <TextView
+        android:id="@+id/card_item_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:text="2014/3/4 \n08:43:23"
+        android:padding="5dip"
+        android:background="@drawable/splash_login_bg_xml"
+        android:textColor="@color/saddlebrown"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/img_path"
+        android:layout_width="5dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="65dp"
+        android:background="@color/coral" />
+
+    <TextView
+        android:id="@+id/me_wiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:layout_centerVertical="true"
+        android:padding="5dip"
+        android:background="@drawable/card_bg_xml"
+        android:layout_toRightOf="@+id/img_path"
+        android:text="经过科学家研究，一般情况下，一加一等于二。" />
+
+</RelativeLayout>

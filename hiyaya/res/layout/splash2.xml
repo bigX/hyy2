@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/tzxzs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dip"
+        android:text="挑战性知识"
+        android:textColor="@color/_2off"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/blbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tzxzs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:text=" 性是纯洁的，性是奇妙的\n 性是科学的，性是应知的\n 让我们科学的认识性知识"
+        android:textColor="@color/_2off"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/splash_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blbl"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="36dip"
+        android:background="@drawable/btn2_bg_xml"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:text="开始挑战"
+        android:textColor="@drawable/text_color"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dip"
+        android:layout_height="83dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ico_0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dip"
+        android:layout_height="83dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ico_1" />
+
+</RelativeLayout>
